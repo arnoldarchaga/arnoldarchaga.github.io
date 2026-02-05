@@ -1,0 +1,78 @@
+/* style.css - Project 02
+   Goal: keep HTML for structure and put all presentation here.
+   Color palette pulled from my Google Arts & Culture palette exercise.
+*/
+
+:root {
+  --charcoal: #242726;
+  --sand: #d4c5aa;
+  --gold: #dfb24a;
+  --orange: #d04b18;
+  --taupe: #6b5f55;
+}
+
+body {
+  margin: 0;
+  background-color: var(--sand);
+  color: var(--charcoal);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header area */
+header {
+  background-color: var(--charcoal);
+  padding: 24px;
+}
+
+h1 {
+  margin: 0 0 8px 0;
+  color: var(--sand);
+  font-family: "Trebuchet MS", Trebuchet, Arial, sans-serif;
+}
+
+h2 {
+  margin: 0;
+  color: var(--gold);
+  font-weight: 600;
+}
+
+/* Main content spacing */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px; /* spacing requirement */
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.35);
+  padding: 18px;
+  margin-bottom: 18px;
+  border-radius: 12px;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+/* Paragraphs: different color + different font-family than h1 */
+p {
+  color: var(--taupe);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a {
+  color: var(--orange);
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px 24px 24px;
+  color: var(--charcoal);
+}
