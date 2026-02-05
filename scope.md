@@ -1,5 +1,5 @@
 # Project Scope Statement — Personal Webpage (Semantic HTML)
-**Date:** January 25, 2026  
+**Date:** February 4, 2026  
 **Name:** Arnold Archaga
 
 ## Project Purpose
